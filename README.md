@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/tsmarsh/UnderBar/branch/master/graph/badge.svg)](https://codecov.io/gh/tsmarsh/UnderBar)
 
 
-#Underbar
+# Underbar
 
 ## Summary
 
@@ -17,10 +17,11 @@ I hope you choose the latter. If you do, please make sure you have unit tests th
 
 I have split the project into 4 modules.
 
-* **The Ocho:** The bedrock of this library. Contains traditional building block functions that I have stolen mercilessly from functional programming.
-* **Stash:** A "String Hash" that fills an enormous gap in Javas data structures. Think of it as JSON for Java.
-* **Dates:** Dates in Java are less miserable than ever, this module hopes to make them a joy.
-* **IO:** A good example of how to remove Java boiler plate with static functions
+* **[The Ocho:](ocho/README.md)** The bedrock of this library. Contains traditional building block functions that I have stolen mercilessly from functional programming.
+* **[Stash:](stash/README.md)** A "String Hash" that fills an enormous gap in Javas data structures. Think of it as JSON for Java.
+* **[Dates:](dates/README.md)** Dates in Java are less miserable than ever, this module hopes to make them a joy.
+* **[IO:](io/README.md)** A good example of how to remove Java boiler plate with static functions.
+* **[Crypto:](crypto/README.md)** Increase the ease of using cryptography.
 
 ## History
 
@@ -31,7 +32,7 @@ This project was cooked up after a series of conversations with [Jeff Bay](https
 
 The first point was interesting. I know Jeff because, along with [Eric Knell](https://www.linkedin.com/in/eric-knell-31bb072), he was my boss at Outpace, a company that I joined predominantly because it was a Clojure shop. After Outpace they had worked together again and 'fixed' Java.
 
-The second... the second bit peeked my interest.
+The second... the second bit piqued my interest.
 
 Jeff and Eric's premise is that Java 8 can become functional enough if you abandon classes, tricky in a language where everything is a class based object. The trick?
 

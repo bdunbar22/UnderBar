@@ -1,6 +1,6 @@
 # Stash
 
-If dynamic languages have taught is anything, it is the power of schemaless datastructures.
+If dynamic languages have taught us anything, it is the power of schemaless data structures.
 
 JSON beat XML because you can complete a project in JSON before you've finished having the meetings to complete the design of the schema for XML.
 

@@ -12,11 +12,11 @@ HTTPS tends to solve the in flight requirement, but at rest is tricky. Some data
 * PostgresQL
 * MS SQL Server
 
-Even then, you frequently have to either trust someone else with your keys (S3), or the datastores implementation is too slow... lets clarify that, if a SQL Store was a poor fit for your use-cases without encryption it will be a terrible fit with encryption. 
+Even then, you frequently have to either trust someone else with your keys (S3), or the datastores implementation is too slow... let's clarify that, if a SQL Store was a poor fit for your use-cases without encryption it will be a terrible fit with encryption. 
 
 If you want to use Redis, MongoDB, Cassandra, Datomic or any of the other stores you are responsible for encryption.
 
-# Gotchas
+## Gotchas
 
 The gotchas with encryption are:
 
